@@ -13,10 +13,28 @@
     "address": "755 Front St, San Diego, CA 92101",
     "website": "https://www.thegomezfirm.com/",
     "bio": "With over 30 years of experience, John H. Gomez is one of San Diego's most accomplished personal injury trial attorneys. His firm has secured numerous multi-million dollar verdicts and settlements for clients injured in car accidents, truck accidents, and catastrophic injury cases.",
-    "score": 94.5
+    "score": 94.5,
+    "photo": "https://www.thegomezfirm.com/wp-content/uploads/2022/08/John-Gomez-2.jpg"
   },
   {
     "rank": 2,
+    "name": "Eugene Gerard Bruno",
+    "firm": "Eugene Bruno & Associates",
+    "barNumber": "171740",
+    "licenseStatus": "Active",
+    "admissionYear": 1994,
+    "yearsExperience": 31,
+    "googleRating": 5.0,
+    "googleReviews": 357,
+    "phone": "(619) 209-6066",
+    "address": "3180 University Ave #150, San Diego, CA 92104",
+    "website": "https://sdlawyers.com/",
+    "bio": "Eugene Bruno brings over three decades of personal injury experience to his San Diego practice. With a perfect 5-star rating from over 350 clients, his firm specializes in car accidents, motorcycle accidents, and wrongful death cases throughout San Diego County.",
+    "score": 89.3,
+    "photo": "https://sdlawyers.com/wp-content/uploads/2023/04/lawyer-eugene-bruno.jpg"
+  },
+  {
+    "rank": 3,
     "name": "Ross Adam Jurewitz",
     "firm": "Jurewitz Law Group Injury & Accident Lawyers",
     "barNumber": "211226",
@@ -29,10 +47,11 @@
     "address": "600 B St #1450, San Diego, CA 92101",
     "website": "https://www.jurewitz.com/",
     "bio": "Ross Jurewitz founded Jurewitz Law Group to provide aggressive representation for accident victims throughout San Diego. With 25 years of experience, he focuses on auto accidents, motorcycle crashes, and premises liability cases.",
-    "score": 88.2
+    "score": 88.2,
+    "photo": "https://www.jurewitz.com/wp-content/uploads/2021/03/jurewitz-bio-newest.jpg"
   },
   {
-    "rank": 3,
+    "rank": 4,
     "name": "Lee Ippolito Jurewitz",
     "firm": "Jurewitz Law Group Injury & Accident Lawyers",
     "barNumber": "204952",
@@ -48,7 +67,23 @@
     "score": 88.2
   },
   {
-    "rank": 4,
+    "rank": 5,
+    "name": "Michael Pines",
+    "firm": "Pines Salomon Injury Lawyers, APC",
+    "barNumber": "140602",
+    "licenseStatus": "Active",
+    "admissionYear": 1988,
+    "yearsExperience": 37,
+    "googleRating": 4.9,
+    "googleReviews": 298,
+    "phone": "(858) 551-2090",
+    "address": "7777 Fay Ave Suite 212, La Jolla, CA 92037",
+    "website": "https://www.seriousaccidents.com/",
+    "bio": "Michael Pines is a founding partner of Pines Salomon Injury Lawyers with nearly four decades of experience. His La Jolla-based firm has earned recognition for handling complex personal injury cases including auto accidents, brain injuries, and wrongful death claims.",
+    "score": 87.1
+  },
+  {
+    "rank": 6,
     "name": "Michael Patrick Hernandez",
     "firm": "HHJ Trial Attorneys",
     "barNumber": "292679",
@@ -64,7 +99,7 @@
     "score": 85.8
   },
   {
-    "rank": 5,
+    "rank": 7,
     "name": "Adam Joseph Hepburn",
     "firm": "HHJ Trial Attorneys",
     "barNumber": "292736",
@@ -80,7 +115,7 @@
     "score": 85.8
   },
   {
-    "rank": 6,
+    "rank": 8,
     "name": "Elliott H. Jung",
     "firm": "HHJ Trial Attorneys",
     "barNumber": "285491",
@@ -96,7 +131,7 @@
     "score": 85.8
   },
   {
-    "rank": 7,
+    "rank": 9,
     "name": "Adrian M. Terrado",
     "firm": "Law Office of Adrian Terrado, APC",
     "barNumber": "299771",
@@ -112,7 +147,7 @@
     "score": 85.5
   },
   {
-    "rank": 8,
+    "rank": 10,
     "name": "Ashkan King Aminpour",
     "firm": "King Aminpour Car Accident Lawyer",
     "barNumber": "183534",
@@ -128,7 +163,23 @@
     "score": 82.4
   },
   {
-    "rank": 9,
+    "rank": 11,
+    "name": "David Seabold Casey Jr.",
+    "firm": "Casey Gerry Schenk Francavilla Blatt & Penfield, LLP",
+    "barNumber": "60768",
+    "licenseStatus": "Active",
+    "admissionYear": 1974,
+    "yearsExperience": 51,
+    "googleRating": 4.8,
+    "googleReviews": 80,
+    "phone": "(619) 238-1811",
+    "address": "110 Laurel St, San Diego, CA 92101",
+    "website": "https://www.cglaw.com/",
+    "bio": "David Casey Jr. brings over five decades of legal experience as a named partner at one of San Diego's most established personal injury firms. His firm has handled landmark cases throughout California and is known for taking on complex catastrophic injury and wrongful death claims.",
+    "score": 81.2
+  },
+  {
+    "rank": 12,
     "name": "Paul N. Batta",
     "firm": "Batta Fulkerson Law Group",
     "barNumber": "283188",
@@ -144,7 +195,24 @@
     "score": 80.7
   },
   {
-    "rank": 10,
+    "rank": 13,
+    "name": "Mark Carleton Blane",
+    "firm": "Law Offices of Mark C. Blane, APC",
+    "barNumber": "201811",
+    "licenseStatus": "Active",
+    "admissionYear": 1999,
+    "yearsExperience": 26,
+    "googleRating": 4.9,
+    "googleReviews": 139,
+    "phone": "(619) 813-7955",
+    "address": "3465 Camino del Rio S #410, San Diego, CA 92108",
+    "website": "https://www.blanelaw.com/",
+    "bio": "Mark Blane has spent over 25 years fighting for personal injury victims in San Diego. His firm handles car accidents, motorcycle crashes, brain injuries, and wrongful death cases, providing aggressive representation against insurance companies.",
+    "score": 79.8,
+    "photo": "https://www.blanelaw.com/images/bios/RD-San-Diego-Personal-Injury-Lawyer-copy.jpg"
+  },
+  {
+    "rank": 14,
     "name": "Robert Hamparyan",
     "firm": "Hamparyan Personal Injury Lawyers San Diego, APC",
     "barNumber": "181934",
@@ -160,7 +228,7 @@
     "score": 78.8
   },
   {
-    "rank": 11,
+    "rank": 15,
     "name": "Matthew D. Clendenin",
     "firm": "The Clendenin Firm APC",
     "barNumber": "284536",
@@ -176,7 +244,7 @@
     "score": 78.0
   },
   {
-    "rank": 12,
+    "rank": 16,
     "name": "David Patrick Finn",
     "firm": "Finn Trial Attorneys APC",
     "barNumber": "249247",
@@ -192,7 +260,7 @@
     "score": 77.3
   },
   {
-    "rank": 13,
+    "rank": 17,
     "name": "Ramin Hariri",
     "firm": "Hariri Law Group P.C.",
     "barNumber": "251625",
@@ -208,7 +276,7 @@
     "score": 76.7
   },
   {
-    "rank": 14,
+    "rank": 18,
     "name": "Brian Joseph Bickel",
     "firm": "Bickel Sannipoli APC",
     "barNumber": "205646",
@@ -224,7 +292,7 @@
     "score": 76.5
   },
   {
-    "rank": 15,
+    "rank": 19,
     "name": "Keith Jordan Stone",
     "firm": "Law Offices of Keith J. Stone",
     "barNumber": "126445",
@@ -240,7 +308,23 @@
     "score": 75.6
   },
   {
-    "rank": 16,
+    "rank": 20,
+    "name": "Craig Rene McClellan",
+    "firm": "The McClellan Law Firm",
+    "barNumber": "71865",
+    "licenseStatus": "Active",
+    "admissionYear": 1977,
+    "yearsExperience": 48,
+    "googleRating": 4.9,
+    "googleReviews": 38,
+    "phone": "(619) 231-1058",
+    "address": "1201 Camino Del Mar, Del Mar, CA 92014",
+    "website": "https://www.mcclellanlaw.com/",
+    "bio": "Craig McClellan has nearly five decades of experience representing personal injury victims. His Del Mar-based firm focuses on catastrophic injury cases, medical malpractice, and wrongful death claims throughout San Diego County.",
+    "score": 74.5
+  },
+  {
+    "rank": 21,
     "name": "Gordon Ralph Levinson",
     "firm": "Levinson Law Group",
     "barNumber": "185649",
@@ -256,7 +340,7 @@
     "score": 74.2
   },
   {
-    "rank": 17,
+    "rank": 22,
     "name": "Brett Cole Peterson",
     "firm": "Law Office of Brett Peterson",
     "barNumber": "199183",
@@ -270,5 +354,53 @@
     "website": "https://brettpetersonlaw.com/",
     "bio": "Brett Peterson provides focused, individualized attention to each personal injury case. With 27 years of experience, he helps San Diego residents navigate the complexities of injury claims.",
     "score": 73.9
+  },
+  {
+    "rank": 23,
+    "name": "Jacob Layne Stipp",
+    "firm": "Jacob Stipp Law Injury Attorneys",
+    "barNumber": "282338",
+    "licenseStatus": "Active",
+    "admissionYear": 2012,
+    "yearsExperience": 13,
+    "googleRating": 4.9,
+    "googleReviews": 32,
+    "phone": "(760) 931-6800",
+    "address": "6965 El Camino Real #105, Carlsbad, CA 92009",
+    "website": "https://www.stipplaw.com/",
+    "bio": "Jacob Stipp operates a boutique personal injury practice in Carlsbad, serving clients throughout San Diego County. His firm handles car accidents, motorcycle crashes, and premises liability cases with personalized attention.",
+    "score": 73.2
+  },
+  {
+    "rank": 24,
+    "name": "Frederick Schenk",
+    "firm": "Casey Gerry Schenk Francavilla Blatt & Penfield, LLP",
+    "barNumber": "86392",
+    "licenseStatus": "Active",
+    "admissionYear": 1980,
+    "yearsExperience": 45,
+    "googleRating": 4.8,
+    "googleReviews": 80,
+    "phone": "(619) 238-1811",
+    "address": "110 Laurel St, San Diego, CA 92101",
+    "website": "https://www.cglaw.com/",
+    "bio": "Frederick Schenk is a named partner at one of San Diego's premier personal injury firms with over four decades of experience. He specializes in complex litigation including medical malpractice, product liability, and catastrophic injury cases.",
+    "score": 72.8
+  },
+  {
+    "rank": 25,
+    "name": "Robert Frank Vaage",
+    "firm": "Vaage Law",
+    "barNumber": "106437",
+    "licenseStatus": "Active",
+    "admissionYear": 1983,
+    "yearsExperience": 42,
+    "googleRating": 3.8,
+    "googleReviews": 4,
+    "phone": "(619) 234-6000",
+    "address": "750 B St Suite 3020, San Diego, CA 92101",
+    "website": "https://vaagelaw.com/",
+    "bio": "Robert Vaage brings over four decades of legal experience to his personal injury practice in downtown San Diego. He handles car accidents, slip and falls, and general negligence claims.",
+    "score": 68.5
   }
 ]
