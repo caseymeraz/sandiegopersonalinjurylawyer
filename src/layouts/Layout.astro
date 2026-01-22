@@ -1,0 +1,82 @@
+---
+import '../styles/global.css'
+
+interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+const currentYear = new Date().getFullYear();
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://sandiegopersonalinjurylawyer.co/" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sandiegopersonalinjurylawyer.co/" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>{title}</title>
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": title,
+      "description": description,
+      "url": "https://sandiegopersonalinjurylawyer.co/",
+      "dateModified": new Date().toISOString().split('T')[0],
+      "publisher": {
+        "@type": "Organization",
+        "name": "San Diego Personal Injury Lawyer Directory"
+      }
+    })} />
+  </head>
+  <body class="bg-gray-50 text-gray-900 font-sans antialiased">
+    <slot />
+
+    <footer class="bg-gray-900 text-gray-300 py-12 mt-16">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="grid md:grid-cols-2 gap-8">
+          <div>
+            <h3 class="text-white font-semibold text-lg mb-4">About This Directory</h3>
+            <p class="text-sm leading-relaxed">
+              This directory provides verified information about personal injury lawyers in San Diego, CA.
+              All attorney license information is verified through the State Bar of California.
+              Google review data is sourced from Google Business Profiles.
+            </p>
+          </div>
+          <div>
+            <h3 class="text-white font-semibold text-lg mb-4">Disclaimer</h3>
+            <p class="text-sm leading-relaxed">
+              This website is for informational purposes only and does not constitute legal advice.
+              The information provided does not create an attorney-client relationship.
+              Always verify credentials independently before retaining legal counsel.
+            </p>
+          </div>
+        </div>
+        <div class="border-t border-gray-700 mt-8 pt-8 text-center text-sm">
+          <p>&copy; {currentYear} San Diego Personal Injury Lawyer Directory. All rights reserved.</p>
+          <p class="mt-2 text-gray-500">Last updated: {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

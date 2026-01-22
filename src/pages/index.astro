@@ -1,17 +1,244 @@
 ---
+import Layout from '../layouts/Layout.astro';
+import LawyerCard from '../components/LawyerCard.astro';
+import lawyers from '../data/lawyers.json';
 
+const title = "Best Personal Injury Lawyers in San Diego (2025) | Verified Rankings";
+const description = "Find the top-rated personal injury lawyers in San Diego, CA. Our rankings are based on verified State Bar credentials and Google reviews. All attorneys verified through the California State Bar.";
+
+// Schema.org ItemList for rankings
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Best Personal Injury Lawyers in San Diego",
+  "description": "Rankings of the top personal injury attorneys in San Diego based on verified credentials and client reviews",
+  "numberOfItems": lawyers.length,
+  "itemListElement": lawyers.map((lawyer, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "item": {
+      "@type": "Attorney",
+      "name": lawyer.name,
+      "description": lawyer.bio,
+      "url": lawyer.website,
+      "telephone": lawyer.phone,
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": lawyer.address,
+        "addressLocality": "San Diego",
+        "addressRegion": "CA",
+        "addressCountry": "US"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": lawyer.googleRating,
+        "reviewCount": lawyer.googleReviews,
+        "bestRating": 5,
+        "worstRating": 1
+      }
+    }
+  }))
+};
+
+// FAQ Schema
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose the best personal injury lawyer in San Diego?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Look for attorneys with active State Bar of California licenses, strong client reviews, and experience handling cases similar to yours. Consider their years of experience, communication style, and whether they work on contingency (no fee unless you win)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are these San Diego personal injury lawyers ranked?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our rankings are based on verified State Bar of California credentials and Google review data. We verify each attorney's license status through the official State Bar database and factor in their Google rating and review count."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does a personal injury lawyer cost in San Diego?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most San Diego personal injury lawyers work on a contingency fee basis, meaning you pay nothing upfront and they only get paid if you win your case. Typical contingency fees range from 33% to 40% of the settlement or verdict."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long do I have to file a personal injury claim in California?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "California's statute of limitations for most personal injury claims is 2 years from the date of injury. Claims against government entities have a shorter deadline of 6 months. It's important to consult an attorney promptly to protect your rights."
+      }
+    }
+  ]
+};
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title={title} description={description}>
+  <!-- Additional Schema Markup -->
+  <script type="application/ld+json" set:html={JSON.stringify(itemListSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+
+  <!-- Hero Section -->
+  <header class="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white">
+    <div class="max-w-6xl mx-auto px-4 py-16 md:py-24">
+      <div class="text-center">
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+          Best Personal Injury Lawyers<br class="hidden md:block" /> in San Diego
+        </h1>
+        <p class="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">
+          Verified attorney rankings based on State Bar credentials and Google reviews
+        </p>
+
+        <!-- Trust Badges -->
+        <div class="flex flex-wrap justify-center gap-4 md:gap-6 mb-8">
+          <div class="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
+            <svg class="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+            </svg>
+            <span class="text-sm font-medium">State Bar Verified</span>
+          </div>
+          <div class="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
+            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+            </svg>
+            <span class="text-sm font-medium">Google Reviews</span>
+          </div>
+          <div class="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
+            <svg class="w-5 h-5 text-blue-300" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"/>
+            </svg>
+            <span class="text-sm font-medium">Updated January 2026</span>
+          </div>
+        </div>
+
+        <a href="#rankings" class="inline-flex items-center px-6 py-3 bg-white text-blue-900 font-semibold rounded-lg hover:bg-blue-50 transition-colors">
+          View Rankings
+          <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Methodology Section -->
+    <section class="bg-white border-b border-gray-200">
+      <div class="max-w-6xl mx-auto px-4 py-12">
+        <h2 class="text-2xl font-bold text-gray-900 mb-6 text-center">How We Rank San Diego Personal Injury Lawyers</h2>
+
+        <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div class="flex gap-4">
+            <div class="flex-shrink-0 w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
+              <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+              </svg>
+            </div>
+            <div>
+              <h3 class="font-semibold text-gray-900 mb-2">State Bar Verification</h3>
+              <p class="text-gray-600 text-sm">Every attorney's license is verified through the official State Bar of California database. We confirm active status and admission year.</p>
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <div class="flex-shrink-0 w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center">
+              <svg class="w-6 h-6 text-yellow-600" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+              </svg>
+            </div>
+            <div>
+              <h3 class="font-semibold text-gray-900 mb-2">Google Reviews</h3>
+              <p class="text-gray-600 text-sm">Client reviews from Google Business Profiles are factored in, considering both the average rating and total number of reviews.</p>
+            </div>
+          </div>
+        </div>
+
+        <p class="text-center text-gray-500 text-sm mt-8 max-w-2xl mx-auto">
+          Our methodology prioritizes verified, public data. Rankings are based on a combination of State Bar verification (50%) and Google review metrics (50%). We do not accept payment for placement.
+        </p>
+      </div>
+    </section>
+
+    <!-- Lawyer Rankings -->
+    <section class="bg-gray-50" id="rankings">
+      <div class="max-w-6xl mx-auto px-4 py-12 md:py-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-2 text-center">Top {lawyers.length} Personal Injury Lawyers in San Diego</h2>
+        <p class="text-gray-600 text-center mb-10">All attorneys verified through the State Bar of California</p>
+
+        <div class="space-y-6">
+          {lawyers.map((lawyer) => (
+            <LawyerCard
+              rank={lawyer.rank}
+              name={lawyer.name}
+              firm={lawyer.firm}
+              barNumber={lawyer.barNumber}
+              licenseStatus={lawyer.licenseStatus}
+              admissionYear={lawyer.admissionYear}
+              yearsExperience={lawyer.yearsExperience}
+              googleRating={lawyer.googleRating}
+              googleReviews={lawyer.googleReviews}
+              phone={lawyer.phone}
+              address={lawyer.address}
+              website={lawyer.website}
+              bio={lawyer.bio}
+              score={lawyer.score}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="bg-white">
+      <div class="max-w-4xl mx-auto px-4 py-12 md:py-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-10 text-center">Frequently Asked Questions</h2>
+
+        <div class="space-y-6">
+          <div class="border border-gray-200 rounded-lg p-6">
+            <h3 class="text-lg font-semibold text-gray-900 mb-3">How do I choose the best personal injury lawyer in San Diego?</h3>
+            <p class="text-gray-600">Look for attorneys with active State Bar of California licenses, strong client reviews, and experience handling cases similar to yours. Consider their years of experience, communication style, and whether they work on contingency (no fee unless you win). Meeting with a few attorneys for free consultations can help you find the right fit.</p>
+          </div>
+
+          <div class="border border-gray-200 rounded-lg p-6">
+            <h3 class="text-lg font-semibold text-gray-900 mb-3">How are these San Diego personal injury lawyers ranked?</h3>
+            <p class="text-gray-600">Our rankings are based on verified State Bar of California credentials and Google review data. We verify each attorney's license status through the official State Bar database and factor in their Google rating and review count. We do not accept payment for rankings or placement.</p>
+          </div>
+
+          <div class="border border-gray-200 rounded-lg p-6">
+            <h3 class="text-lg font-semibold text-gray-900 mb-3">What does a personal injury lawyer cost in San Diego?</h3>
+            <p class="text-gray-600">Most San Diego personal injury lawyers work on a contingency fee basis, meaning you pay nothing upfront and they only get paid if you win your case. Typical contingency fees range from 33% to 40% of the settlement or verdict. Some attorneys may also cover case expenses and only recover them if you win.</p>
+          </div>
+
+          <div class="border border-gray-200 rounded-lg p-6">
+            <h3 class="text-lg font-semibold text-gray-900 mb-3">How long do I have to file a personal injury claim in California?</h3>
+            <p class="text-gray-600">California's statute of limitations for most personal injury claims is 2 years from the date of injury. Claims against government entities have a shorter deadline of 6 months. Discovery rules may extend deadlines in some cases, but it's important to consult an attorney promptly to protect your rights.</p>
+          </div>
+
+          <div class="border border-gray-200 rounded-lg p-6">
+            <h3 class="text-lg font-semibold text-gray-900 mb-3">What types of cases do San Diego personal injury lawyers handle?</h3>
+            <p class="text-gray-600">Personal injury lawyers in San Diego typically handle car accidents, motorcycle accidents, truck accidents, pedestrian injuries, bicycle accidents, slip and falls, dog bites, medical malpractice, product liability, wrongful death, and workplace injuries. Many attorneys specialize in specific case types.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="bg-blue-900 text-white">
+      <div class="max-w-4xl mx-auto px-4 py-12 text-center">
+        <h2 class="text-2xl md:text-3xl font-bold mb-4">Injured in an Accident?</h2>
+        <p class="text-blue-100 mb-6 max-w-2xl mx-auto">Contact any of the verified attorneys above for a free consultation. Most personal injury lawyers in San Diego offer free case evaluations and work on contingency.</p>
+        <a href="#rankings" class="inline-flex items-center px-6 py-3 bg-white text-blue-900 font-semibold rounded-lg hover:bg-blue-50 transition-colors">
+          View Attorney Rankings
+        </a>
+      </div>
+    </section>
+  </main>
+</Layout>
