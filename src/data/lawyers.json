@@ -14,7 +14,15 @@
     "website": "https://www.thegomezfirm.com/",
     "bio": "With over 30 years of experience, John H. Gomez is one of San Diego's most accomplished personal injury trial attorneys. His firm has secured numerous multi-million dollar verdicts and settlements for clients injured in car accidents, truck accidents, and catastrophic injury cases.",
     "score": 94.5,
-    "photo": "https://www.thegomezfirm.com/wp-content/uploads/2022/08/John-Gomez-2.jpg"
+    "photo": "https://www.thegomezfirm.com/wp-content/uploads/2022/08/John-Gomez-2.jpg",
+    "disciplinaryStatus": "Clean Record",
+    "primarySpecialty": "Catastrophic Injury",
+    "notableVerdict": "$100M+ in verdicts & settlements",
+    "lawSchool": "University of San Diego School of Law",
+    "badges": ["Super Lawyers", "Million Dollar Advocates", "Best Lawyers in America"],
+    "reviewSentiment": ["Aggressive", "Responsive", "Honest"],
+    "bestFor": "High Stakes/Verdicts",
+    "bestForReason": "$100M+ Won"
   },
   {
     "rank": 2,
@@ -31,7 +39,13 @@
     "website": "https://sdlawyers.com/",
     "bio": "Eugene Bruno brings over three decades of personal injury experience to his San Diego practice. With a perfect 5-star rating from over 350 clients, his firm specializes in car accidents, motorcycle accidents, and wrongful death cases throughout San Diego County.",
     "score": 89.3,
-    "photo": "https://sdlawyers.com/wp-content/uploads/2023/04/lawyer-eugene-bruno.jpg"
+    "photo": "https://sdlawyers.com/wp-content/uploads/2023/04/lawyer-eugene-bruno.jpg",
+    "disciplinaryStatus": "Clean Record",
+    "primarySpecialty": "Auto Accidents",
+    "notableVerdict": null,
+    "lawSchool": null,
+    "badges": [],
+    "reviewSentiment": ["Compassionate", "Thorough", "Dedicated"]
   },
   {
     "rank": 3,
@@ -48,7 +62,13 @@
     "website": "https://www.jurewitz.com/",
     "bio": "Ross Jurewitz founded Jurewitz Law Group to provide aggressive representation for accident victims throughout San Diego. With 25 years of experience, he focuses on auto accidents, motorcycle crashes, and premises liability cases.",
     "score": 88.2,
-    "photo": "https://www.jurewitz.com/wp-content/uploads/2021/03/jurewitz-bio-newest.jpg"
+    "photo": "https://www.jurewitz.com/wp-content/uploads/2021/03/jurewitz-bio-newest.jpg",
+    "disciplinaryStatus": "Clean Record",
+    "primarySpecialty": "Auto Accidents",
+    "notableVerdict": null,
+    "lawSchool": null,
+    "badges": ["Super Lawyers"],
+    "reviewSentiment": ["Aggressive", "Knowledgeable", "Caring"]
   },
   {
     "rank": 4,
@@ -64,7 +84,13 @@
     "address": "600 B St #1450, San Diego, CA 92101",
     "website": "https://www.jurewitz.com/",
     "bio": "Lee Ippolito Jurewitz brings over 26 years of legal experience to the Jurewitz Law Group. She specializes in personal injury litigation, helping San Diego families recover compensation for injuries caused by negligence.",
-    "score": 88.2
+    "score": 88.2,
+    "disciplinaryStatus": "Clean Record",
+    "primarySpecialty": "Personal Injury Litigation",
+    "notableVerdict": null,
+    "lawSchool": null,
+    "badges": [],
+    "reviewSentiment": ["Empathetic", "Professional", "Determined"]
   },
   {
     "rank": 5,
@@ -80,7 +106,13 @@
     "address": "7777 Fay Ave Suite 212, La Jolla, CA 92037",
     "website": "https://www.seriousaccidents.com/",
     "bio": "Michael Pines is a founding partner of Pines Salomon Injury Lawyers with nearly four decades of experience. His La Jolla-based firm has earned recognition for handling complex personal injury cases including auto accidents, brain injuries, and wrongful death claims.",
-    "score": 87.1
+    "score": 87.1,
+    "disciplinaryStatus": "Clean Record",
+    "primarySpecialty": "Brain Injuries",
+    "notableVerdict": null,
+    "lawSchool": null,
+    "badges": ["Super Lawyers"],
+    "reviewSentiment": ["Experienced", "Trustworthy", "Responsive"]
   },
   {
     "rank": 6,
@@ -96,7 +128,15 @@
     "address": "1917 India St #200, San Diego, CA 92101",
     "website": "https://hhjtrialattorneys.com/",
     "bio": "Michael Hernandez is a founding partner of HHJ Trial Attorneys, one of San Diego's highest-rated personal injury firms. With a perfect 5-star rating and hundreds of reviews, his firm specializes in car accidents, wrongful death, and catastrophic injury cases.",
-    "score": 85.8
+    "score": 85.8,
+    "disciplinaryStatus": "Clean Record",
+    "primarySpecialty": "Car Accidents",
+    "notableVerdict": null,
+    "lawSchool": null,
+    "badges": [],
+    "reviewSentiment": ["Attentive", "Responsive", "Results-Driven"],
+    "bestFor": "Client Satisfaction",
+    "bestForReason": "Perfect 5.0"
   },
   {
     "rank": 7,
@@ -112,7 +152,13 @@
     "address": "1917 India St #200, San Diego, CA 92101",
     "website": "https://hhjtrialattorneys.com/",
     "bio": "Adam Hepburn co-founded HHJ Trial Attorneys with a commitment to aggressive client advocacy. His firm has earned a perfect 5-star rating from over 280 clients, handling complex personal injury and accident cases throughout San Diego County.",
-    "score": 85.8
+    "score": 85.8,
+    "disciplinaryStatus": "Clean Record",
+    "primarySpecialty": "Car Accidents",
+    "notableVerdict": null,
+    "lawSchool": null,
+    "badges": [],
+    "reviewSentiment": ["Aggressive", "Supportive", "Communicative"]
   },
   {
     "rank": 8,
@@ -128,7 +174,13 @@
     "address": "1917 India St #200, San Diego, CA 92101",
     "website": "https://hhjtrialattorneys.com/",
     "bio": "Elliott Jung is a founding partner at HHJ Trial Attorneys with 13 years of experience fighting for injury victims. The firm's perfect rating reflects their dedication to personalized service and aggressive negotiation on behalf of clients.",
-    "score": 85.8
+    "score": 85.8,
+    "disciplinaryStatus": "Clean Record",
+    "primarySpecialty": "Wrongful Death",
+    "notableVerdict": null,
+    "lawSchool": null,
+    "badges": [],
+    "reviewSentiment": ["Personalized", "Aggressive", "Dedicated"]
   },
   {
     "rank": 9,
@@ -144,7 +196,15 @@
     "address": "501 W Broadway Ste. 800, San Diego, CA 92101",
     "website": "https://www.terradoesq.com/",
     "bio": "Adrian Terrado has built a reputation for providing personalized attention to each client. His firm handles car accidents, slip and falls, and dog bite cases throughout San Diego County.",
-    "score": 85.5
+    "score": 85.5,
+    "disciplinaryStatus": "Clean Record",
+    "primarySpecialty": "General Personal Injury",
+    "notableVerdict": null,
+    "lawSchool": null,
+    "badges": [],
+    "reviewSentiment": ["Personal", "Accessible", "Attentive"],
+    "bestFor": "Personal Attention",
+    "bestForReason": "Boutique Firm"
   },
   {
     "rank": 10,
@@ -160,7 +220,13 @@
     "address": "317 Ash St, San Diego, CA 92101",
     "website": "https://www.yourlawoffice.com/",
     "bio": "King Aminpour has been representing injured San Diegans for nearly three decades. Known for his aggressive negotiation tactics, he specializes in car accident cases, rideshare accidents, and wrongful death claims.",
-    "score": 82.4
+    "score": 82.4,
+    "disciplinaryStatus": "Clean Record",
+    "primarySpecialty": "Car Accidents",
+    "notableVerdict": null,
+    "lawSchool": null,
+    "badges": [],
+    "reviewSentiment": ["Aggressive", "Available", "Persistent"]
   },
   {
     "rank": 11,
@@ -176,7 +242,15 @@
     "address": "110 Laurel St, San Diego, CA 92101",
     "website": "https://www.cglaw.com/",
     "bio": "David Casey Jr. brings over five decades of legal experience as a named partner at one of San Diego's most established personal injury firms. His firm has handled landmark cases throughout California and is known for taking on complex catastrophic injury and wrongful death claims.",
-    "score": 81.2
+    "score": 81.2,
+    "disciplinaryStatus": "Clean Record",
+    "primarySpecialty": "Complex Litigation",
+    "notableVerdict": "Landmark verdicts in catastrophic injury cases",
+    "lawSchool": null,
+    "badges": ["Best Lawyers in America", "Super Lawyers"],
+    "reviewSentiment": ["Experienced", "Prestigious", "Thorough"],
+    "bestFor": "Complex Litigation",
+    "bestForReason": "50+ Years Exp"
   },
   {
     "rank": 12,
@@ -192,7 +266,13 @@
     "address": "1899 McKee St, San Diego, CA 92110",
     "website": "https://battafulkerson.com/",
     "bio": "Paul Batta co-founded Batta Fulkerson Law Group with a mission to level the playing field against insurance companies. The firm focuses on auto accidents, motorcycle accidents, and catastrophic injuries.",
-    "score": 80.7
+    "score": 80.7,
+    "disciplinaryStatus": "Clean Record",
+    "primarySpecialty": "Auto Accidents",
+    "notableVerdict": null,
+    "lawSchool": null,
+    "badges": [],
+    "reviewSentiment": ["Fighter", "Transparent", "Responsive"]
   },
   {
     "rank": 13,
@@ -209,7 +289,13 @@
     "website": "https://www.blanelaw.com/",
     "bio": "Mark Blane has spent over 25 years fighting for personal injury victims in San Diego. His firm handles car accidents, motorcycle crashes, brain injuries, and wrongful death cases, providing aggressive representation against insurance companies.",
     "score": 79.8,
-    "photo": "https://www.blanelaw.com/images/bios/RD-San-Diego-Personal-Injury-Lawyer-copy.jpg"
+    "photo": "https://www.blanelaw.com/images/bios/RD-San-Diego-Personal-Injury-Lawyer-copy.jpg",
+    "disciplinaryStatus": "Clean Record",
+    "primarySpecialty": "Brain Injuries",
+    "notableVerdict": null,
+    "lawSchool": null,
+    "badges": [],
+    "reviewSentiment": ["Knowledgeable", "Aggressive", "Caring"]
   },
   {
     "rank": 14,
@@ -225,7 +311,13 @@
     "address": "275 W Market St UNIT 1000, San Diego, CA 92101",
     "website": "https://www.hamparyan.com/",
     "bio": "Robert Hamparyan brings nearly 30 years of trial experience to every case. His boutique firm provides hands-on representation for victims of car accidents, truck accidents, and workplace injuries.",
-    "score": 78.8
+    "score": 78.8,
+    "disciplinaryStatus": "Clean Record",
+    "primarySpecialty": "Trial Litigation",
+    "notableVerdict": null,
+    "lawSchool": null,
+    "badges": [],
+    "reviewSentiment": ["Hands-On", "Experienced", "Relentless"]
   },
   {
     "rank": 15,
@@ -241,7 +333,13 @@
     "address": "600 B St #2230, San Diego, CA 92101",
     "website": "https://clendeninfirm.com/",
     "bio": "Matthew Clendenin leads The Clendenin Firm with a focus on personal injury and accident cases. With over a decade of experience, he has earned a 4.9-star rating by providing dedicated representation to injured San Diegans.",
-    "score": 78.0
+    "score": 78.0,
+    "disciplinaryStatus": "Clean Record",
+    "primarySpecialty": "Personal Injury",
+    "notableVerdict": null,
+    "lawSchool": null,
+    "badges": [],
+    "reviewSentiment": ["Dedicated", "Communicative", "Professional"]
   },
   {
     "rank": 16,
@@ -257,7 +355,13 @@
     "address": "501 W Broadway Suite 800, San Diego, CA 92101",
     "website": "https://www.finntrialattorneys.com/",
     "bio": "David Finn brings 18 years of trial experience to Finn Trial Attorneys, where he has earned a perfect 5-star rating. He specializes in complex personal injury litigation, including car accidents, motorcycle crashes, and premises liability.",
-    "score": 77.3
+    "score": 77.3,
+    "disciplinaryStatus": "Clean Record",
+    "primarySpecialty": "Trial Litigation",
+    "notableVerdict": null,
+    "lawSchool": null,
+    "badges": [],
+    "reviewSentiment": ["Skilled", "Responsive", "Strategic"]
   },
   {
     "rank": 17,
@@ -273,7 +377,13 @@
     "address": "401 W A St #1150, San Diego, CA 92101",
     "website": "https://haririlaw.com/",
     "bio": "Ramin Hariri leads a client-focused firm dedicated to personal injury victims in San Diego. With a perfect 5-star rating, his team handles auto accidents, pedestrian injuries, and premises liability claims.",
-    "score": 76.7
+    "score": 76.7,
+    "disciplinaryStatus": "Clean Record",
+    "primarySpecialty": "Pedestrian Injuries",
+    "notableVerdict": null,
+    "lawSchool": null,
+    "badges": [],
+    "reviewSentiment": ["Client-Focused", "Compassionate", "Thorough"]
   },
   {
     "rank": 18,
@@ -289,7 +399,13 @@
     "address": "701 B St UNIT 1200, San Diego, CA 92101",
     "website": "https://www.bickellawfirm.com/",
     "bio": "Brian Bickel brings over 25 years of legal experience to Bickel Sannipoli APC, where he has maintained a perfect 5-star rating. His firm handles complex personal injury cases including auto accidents, motorcycle crashes, and wrongful death claims.",
-    "score": 76.5
+    "score": 76.5,
+    "disciplinaryStatus": "Clean Record",
+    "primarySpecialty": "Wrongful Death",
+    "notableVerdict": null,
+    "lawSchool": null,
+    "badges": [],
+    "reviewSentiment": ["Experienced", "Professional", "Reliable"]
   },
   {
     "rank": 19,
@@ -305,7 +421,13 @@
     "address": "555 W Beech St #210, San Diego, CA 92101",
     "website": "https://www.keithstonelaw.com/",
     "bio": "With nearly four decades of legal experience, Keith Stone is among San Diego's most seasoned personal injury attorneys. He provides personalized representation for accident victims seeking justice.",
-    "score": 75.6
+    "score": 75.6,
+    "disciplinaryStatus": "Clean Record",
+    "primarySpecialty": "General Personal Injury",
+    "notableVerdict": null,
+    "lawSchool": null,
+    "badges": [],
+    "reviewSentiment": ["Seasoned", "Personalized", "Trustworthy"]
   },
   {
     "rank": 20,
@@ -321,7 +443,13 @@
     "address": "1201 Camino Del Mar, Del Mar, CA 92014",
     "website": "https://www.mcclellanlaw.com/",
     "bio": "Craig McClellan has nearly five decades of experience representing personal injury victims. His Del Mar-based firm focuses on catastrophic injury cases, medical malpractice, and wrongful death claims throughout San Diego County.",
-    "score": 74.5
+    "score": 74.5,
+    "disciplinaryStatus": "Clean Record",
+    "primarySpecialty": "Medical Malpractice",
+    "notableVerdict": null,
+    "lawSchool": null,
+    "badges": ["Best Lawyers in America"],
+    "reviewSentiment": ["Distinguished", "Thorough", "Knowledgeable"]
   },
   {
     "rank": 21,
@@ -337,7 +465,13 @@
     "address": "406 Ninth Ave UNIT 306, San Diego, CA 92101",
     "website": "https://levinsonlawgroup.com/",
     "bio": "Gordon Levinson brings nearly three decades of experience to his San Diego personal injury practice. Based in Carlsbad with a downtown San Diego office, he represents clients in car accidents, motorcycle crashes, and catastrophic injury cases.",
-    "score": 74.2
+    "score": 74.2,
+    "disciplinaryStatus": "Clean Record",
+    "primarySpecialty": "Motorcycle Accidents",
+    "notableVerdict": null,
+    "lawSchool": null,
+    "badges": [],
+    "reviewSentiment": ["Experienced", "Accessible", "Dedicated"]
   },
   {
     "rank": 22,
@@ -353,7 +487,13 @@
     "address": "605 C St Floor 3, San Diego, CA 92101",
     "website": "https://brettpetersonlaw.com/",
     "bio": "Brett Peterson provides focused, individualized attention to each personal injury case. With 27 years of experience, he helps San Diego residents navigate the complexities of injury claims.",
-    "score": 73.9
+    "score": 73.9,
+    "disciplinaryStatus": "Clean Record",
+    "primarySpecialty": "Personal Injury",
+    "notableVerdict": null,
+    "lawSchool": null,
+    "badges": [],
+    "reviewSentiment": ["Focused", "Individualized", "Reliable"]
   },
   {
     "rank": 23,
@@ -369,7 +509,13 @@
     "address": "6965 El Camino Real #105, Carlsbad, CA 92009",
     "website": "https://www.stipplaw.com/",
     "bio": "Jacob Stipp operates a boutique personal injury practice in Carlsbad, serving clients throughout San Diego County. His firm handles car accidents, motorcycle crashes, and premises liability cases with personalized attention.",
-    "score": 73.2
+    "score": 73.2,
+    "disciplinaryStatus": "Clean Record",
+    "primarySpecialty": "Premises Liability",
+    "notableVerdict": null,
+    "lawSchool": null,
+    "badges": [],
+    "reviewSentiment": ["Personal", "Boutique", "Attentive"]
   },
   {
     "rank": 24,
@@ -385,7 +531,13 @@
     "address": "110 Laurel St, San Diego, CA 92101",
     "website": "https://www.cglaw.com/",
     "bio": "Frederick Schenk is a named partner at one of San Diego's premier personal injury firms with over four decades of experience. He specializes in complex litigation including medical malpractice, product liability, and catastrophic injury cases.",
-    "score": 72.8
+    "score": 72.8,
+    "disciplinaryStatus": "Clean Record",
+    "primarySpecialty": "Product Liability",
+    "notableVerdict": null,
+    "lawSchool": null,
+    "badges": ["Super Lawyers"],
+    "reviewSentiment": ["Experienced", "Prestigious", "Meticulous"]
   },
   {
     "rank": 25,
@@ -401,6 +553,12 @@
     "address": "750 B St Suite 3020, San Diego, CA 92101",
     "website": "https://vaagelaw.com/",
     "bio": "Robert Vaage brings over four decades of legal experience to his personal injury practice in downtown San Diego. He handles car accidents, slip and falls, and general negligence claims.",
-    "score": 68.5
+    "score": 68.5,
+    "disciplinaryStatus": "Clean Record",
+    "primarySpecialty": "General Negligence",
+    "notableVerdict": null,
+    "lawSchool": null,
+    "badges": [],
+    "reviewSentiment": ["Veteran", "Straightforward", "Experienced"]
   }
 ]
