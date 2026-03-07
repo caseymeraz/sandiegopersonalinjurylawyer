@@ -1,13 +1,17 @@
 ---
 import '../styles/global.css'
+import Header from '../components/Header.astro';
 
 interface Props {
   title: string;
   description: string;
+  canonicalPath?: string;
 }
 
-const { title, description } = Astro.props;
+const { title, description, canonicalPath } = Astro.props;
 const currentYear = new Date().getFullYear();
+const baseUrl = 'https://sandiegopersonalinjurylawyer.co';
+const canonicalUrl = `${baseUrl}${canonicalPath || Astro.url.pathname}`;
 ---
 
 <!doctype html>
@@ -17,13 +21,13 @@ const currentYear = new Date().getFullYear();
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
     <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://sandiegopersonalinjurylawyer.co/" />
+    <link rel="canonical" href={canonicalUrl} />
 
     <!-- Open Graph -->
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://sandiegopersonalinjurylawyer.co/" />
+    <meta property="og:url" content={canonicalUrl} />
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -41,7 +45,7 @@ const currentYear = new Date().getFullYear();
       "@type": "WebPage",
       "name": title,
       "description": description,
-      "url": "https://sandiegopersonalinjurylawyer.co/",
+      "url": canonicalUrl,
       "dateModified": new Date().toISOString().split('T')[0],
       "publisher": {
         "@type": "Organization",
@@ -50,7 +54,11 @@ const currentYear = new Date().getFullYear();
     })} />
   </head>
   <body class="bg-gray-50 text-gray-900 font-sans antialiased">
-    <slot />
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] focus:bg-blue-600 focus:text-white focus:px-4 focus:py-2 focus:rounded">Skip to content</a>
+    <Header />
+    <div id="main-content">
+      <slot />
+    </div>
 
     <footer class="bg-gray-900 text-gray-300 py-12 mt-16">
       <div class="max-w-6xl mx-auto px-4">

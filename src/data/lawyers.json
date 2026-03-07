@@ -2,6 +2,7 @@
   {
     "rank": 1,
     "name": "John H. Gomez",
+    "slug": "john-h-gomez",
     "firm": "Gomez Trial Attorneys",
     "barNumber": "171485",
     "licenseStatus": "Active",
@@ -22,11 +23,17 @@
     "badges": ["Super Lawyers", "Million Dollar Advocates", "Best Lawyers in America"],
     "reviewSentiment": ["Aggressive", "Responsive", "Honest"],
     "bestFor": "High Stakes/Verdicts",
-    "bestForReason": "$100M+ Won"
+    "bestForReason": "$100M+ Won",
+    "editorsNote": "Our top pick for high-stakes catastrophic injury cases. Gomez Trial Attorneys has the largest documented verdict history on this list, with over $100 million recovered. If your case involves life-altering injuries or complex multi-party litigation, this is the firm insurance companies fear most in San Diego courtrooms.",
+    "languages": ["English"],
+    "feeStructure": "Free consultation. Contingency fee (no win, no fee).",
+    "officeArea": "Downtown San Diego",
+    "specialtyTags": ["Car Accidents", "Truck Accidents", "Catastrophic Injury", "Wrongful Death"]
   },
   {
     "rank": 2,
     "name": "Eugene Gerard Bruno",
+    "slug": "eugene-gerard-bruno",
     "firm": "Eugene Bruno & Associates",
     "barNumber": "171740",
     "licenseStatus": "Active",
@@ -45,11 +52,17 @@
     "notableVerdict": null,
     "lawSchool": null,
     "badges": [],
-    "reviewSentiment": ["Compassionate", "Thorough", "Dedicated"]
+    "reviewSentiment": ["Compassionate", "Thorough", "Dedicated"],
+    "editorsNote": "The highest-rated attorney on our list by pure Google score - a perfect 5.0 from over 350 reviews is nearly unheard of for a firm this size. Bruno's North Park office makes him a strong choice for clients in the mid-city neighborhoods who want an experienced attorney with a proven track record of client satisfaction.",
+    "languages": ["English"],
+    "feeStructure": "Free consultation. Contingency fee (no win, no fee).",
+    "officeArea": "North Park",
+    "specialtyTags": ["Car Accidents", "Motorcycle Accidents", "Wrongful Death"]
   },
   {
     "rank": 3,
     "name": "Ross Adam Jurewitz",
+    "slug": "ross-adam-jurewitz",
     "firm": "Jurewitz Law Group Injury & Accident Lawyers",
     "barNumber": "211226",
     "licenseStatus": "Active",
@@ -68,11 +81,17 @@
     "notableVerdict": null,
     "lawSchool": null,
     "badges": ["Super Lawyers"],
-    "reviewSentiment": ["Aggressive", "Knowledgeable", "Caring"]
+    "reviewSentiment": ["Aggressive", "Knowledgeable", "Caring"],
+    "editorsNote": "Jurewitz Law Group stands out for volume and consistency - over 450 reviews with a 4.8 rating shows sustained client satisfaction across hundreds of cases. Ross Jurewitz is a go-to for straightforward auto accident cases where aggressive negotiation with insurers is the priority.",
+    "languages": ["English"],
+    "feeStructure": "Free consultation. Contingency fee (no win, no fee).",
+    "officeArea": "Downtown San Diego",
+    "specialtyTags": ["Car Accidents", "Motorcycle Accidents", "Premises Liability"]
   },
   {
     "rank": 4,
     "name": "Lee Ippolito Jurewitz",
+    "slug": "lee-ippolito-jurewitz",
     "firm": "Jurewitz Law Group Injury & Accident Lawyers",
     "barNumber": "204952",
     "licenseStatus": "Active",
@@ -90,11 +109,17 @@
     "notableVerdict": null,
     "lawSchool": null,
     "badges": [],
-    "reviewSentiment": ["Empathetic", "Professional", "Determined"]
+    "reviewSentiment": ["Empathetic", "Professional", "Determined"],
+    "editorsNote": "Lee Jurewitz brings a unique combination of empathy and legal tenacity to the Jurewitz Law Group. With 26 years of experience, she is often praised by clients for making the claims process less intimidating - particularly valuable if you are dealing with a first-time injury claim and need someone who explains every step clearly.",
+    "languages": ["English"],
+    "feeStructure": "Free consultation. Contingency fee (no win, no fee).",
+    "officeArea": "Downtown San Diego",
+    "specialtyTags": ["Personal Injury Litigation", "Car Accidents", "Premises Liability"]
   },
   {
     "rank": 5,
     "name": "Michael Pines",
+    "slug": "michael-pines",
     "firm": "Pines Salomon Injury Lawyers, APC",
     "barNumber": "140602",
     "licenseStatus": "Active",
@@ -112,11 +137,17 @@
     "notableVerdict": null,
     "lawSchool": null,
     "badges": ["Super Lawyers"],
-    "reviewSentiment": ["Experienced", "Trustworthy", "Responsive"]
+    "reviewSentiment": ["Experienced", "Trustworthy", "Responsive"],
+    "editorsNote": "If your case involves a traumatic brain injury, Pines is one of the few attorneys in San Diego with deep specialization in this complex area. His La Jolla office also makes him the top-ranked option for North County coastal residents who prefer not to commute downtown for legal meetings.",
+    "languages": ["English"],
+    "feeStructure": "Free consultation. Contingency fee (no win, no fee).",
+    "officeArea": "La Jolla",
+    "specialtyTags": ["Brain Injuries", "Car Accidents", "Wrongful Death"]
   },
   {
     "rank": 6,
     "name": "Michael Patrick Hernandez",
+    "slug": "michael-patrick-hernandez",
     "firm": "HHJ Trial Attorneys",
     "barNumber": "292679",
     "licenseStatus": "Active",
@@ -136,11 +167,17 @@
     "badges": [],
     "reviewSentiment": ["Attentive", "Responsive", "Results-Driven"],
     "bestFor": "Client Satisfaction",
-    "bestForReason": "Perfect 5.0"
+    "bestForReason": "Perfect 5.0",
+    "editorsNote": "HHJ Trial Attorneys has built something rare in the legal industry - a perfect 5.0 rating from nearly 300 clients. While the partners are younger than some on this list, their client satisfaction scores outpace firms with decades more history. A strong pick if responsiveness and communication are your top priorities.",
+    "languages": ["English"],
+    "feeStructure": "Free consultation. Contingency fee (no win, no fee).",
+    "officeArea": "Downtown San Diego",
+    "specialtyTags": ["Car Accidents", "Wrongful Death", "Catastrophic Injury"]
   },
   {
     "rank": 7,
     "name": "Adam Joseph Hepburn",
+    "slug": "adam-joseph-hepburn",
     "firm": "HHJ Trial Attorneys",
     "barNumber": "292736",
     "licenseStatus": "Active",
@@ -158,11 +195,17 @@
     "notableVerdict": null,
     "lawSchool": null,
     "badges": [],
-    "reviewSentiment": ["Aggressive", "Supportive", "Communicative"]
+    "reviewSentiment": ["Aggressive", "Supportive", "Communicative"],
+    "editorsNote": "Adam Hepburn brings the trial-ready aggression that makes HHJ a firm insurers take seriously. Clients consistently highlight his supportive communication style throughout the process. If you want a younger attorney who combines courtroom intensity with genuine client care, Hepburn delivers on both fronts.",
+    "languages": ["English"],
+    "feeStructure": "Free consultation. Contingency fee (no win, no fee).",
+    "officeArea": "Downtown San Diego",
+    "specialtyTags": ["Car Accidents", "Personal Injury Litigation", "Catastrophic Injury"]
   },
   {
     "rank": 8,
     "name": "Elliott H. Jung",
+    "slug": "elliott-h-jung",
     "firm": "HHJ Trial Attorneys",
     "barNumber": "285491",
     "licenseStatus": "Active",
@@ -180,11 +223,17 @@
     "notableVerdict": null,
     "lawSchool": null,
     "badges": [],
-    "reviewSentiment": ["Personalized", "Aggressive", "Dedicated"]
+    "reviewSentiment": ["Personalized", "Aggressive", "Dedicated"],
+    "editorsNote": "As the wrongful death specialist at HHJ Trial Attorneys, Elliott Jung handles some of the most emotionally devastating cases on this list. His personalized approach is especially valued by families navigating the loss of a loved one due to negligence, where sensitivity and legal skill must work in tandem.",
+    "languages": ["English"],
+    "feeStructure": "Free consultation. Contingency fee (no win, no fee).",
+    "officeArea": "Downtown San Diego",
+    "specialtyTags": ["Wrongful Death", "Car Accidents", "Personal Injury Litigation"]
   },
   {
     "rank": 9,
     "name": "Adrian M. Terrado",
+    "slug": "adrian-m-terrado",
     "firm": "Law Office of Adrian Terrado, APC",
     "barNumber": "299771",
     "licenseStatus": "Active",
@@ -204,11 +253,17 @@
     "badges": [],
     "reviewSentiment": ["Personal", "Accessible", "Attentive"],
     "bestFor": "Personal Attention",
-    "bestForReason": "Boutique Firm"
+    "bestForReason": "Boutique Firm",
+    "editorsNote": "If you want an attorney who personally handles your case rather than passing it to a paralegal, Adrian Terrado is a standout choice. As a true boutique firm, his practice limits caseload to ensure each client gets direct access to their attorney. His perfect 5.0 rating from 276 reviews confirms this approach works.",
+    "languages": ["English"],
+    "feeStructure": "Free consultation. Contingency fee (no win, no fee).",
+    "officeArea": "Downtown San Diego",
+    "specialtyTags": ["Car Accidents", "Premises Liability", "Dog Bites", "General Personal Injury"]
   },
   {
     "rank": 10,
     "name": "Ashkan King Aminpour",
+    "slug": "ashkan-king-aminpour",
     "firm": "King Aminpour Car Accident Lawyer",
     "barNumber": "183534",
     "licenseStatus": "Active",
@@ -226,11 +281,17 @@
     "notableVerdict": null,
     "lawSchool": null,
     "badges": [],
-    "reviewSentiment": ["Aggressive", "Available", "Persistent"]
+    "reviewSentiment": ["Aggressive", "Available", "Persistent"],
+    "editorsNote": "One of the most recognizable names in San Diego personal injury thanks to extensive local advertising. Aminpour's firm is built for volume car accident cases with nearly three decades of experience. His memorable phone number (619-333-3333) and 24/7 availability make him easy to reach right after an accident.",
+    "languages": ["English"],
+    "feeStructure": "Free consultation. Contingency fee (no win, no fee).",
+    "officeArea": "Downtown San Diego",
+    "specialtyTags": ["Car Accidents", "Rideshare Accidents", "Wrongful Death"]
   },
   {
     "rank": 11,
     "name": "David Seabold Casey Jr.",
+    "slug": "david-seabold-casey-jr",
     "firm": "Casey Gerry Schenk Francavilla Blatt & Penfield, LLP",
     "barNumber": "60768",
     "licenseStatus": "Active",
@@ -250,11 +311,17 @@
     "badges": ["Best Lawyers in America", "Super Lawyers"],
     "reviewSentiment": ["Experienced", "Prestigious", "Thorough"],
     "bestFor": "Complex Litigation",
-    "bestForReason": "50+ Years Exp"
+    "bestForReason": "50+ Years Exp",
+    "editorsNote": "Casey Gerry is the closest thing to a white-shoe personal injury firm in San Diego. With over 50 years at the bar, David Casey Jr. has the institutional knowledge and courtroom reputation that few can match. Best suited for complex, high-value cases where an established firm's prestige and resources make a tangible difference.",
+    "languages": ["English"],
+    "feeStructure": "Free consultation. Contingency fee (no win, no fee).",
+    "officeArea": "Downtown San Diego",
+    "specialtyTags": ["Complex Litigation", "Catastrophic Injury", "Wrongful Death", "Medical Malpractice"]
   },
   {
     "rank": 12,
     "name": "Paul N. Batta",
+    "slug": "paul-n-batta",
     "firm": "Batta Fulkerson Law Group",
     "barNumber": "283188",
     "licenseStatus": "Active",
@@ -272,11 +339,17 @@
     "notableVerdict": null,
     "lawSchool": null,
     "badges": [],
-    "reviewSentiment": ["Fighter", "Transparent", "Responsive"]
+    "reviewSentiment": ["Fighter", "Transparent", "Responsive"],
+    "editorsNote": "Batta Fulkerson's Old Town location puts them outside the downtown cluster, which can mean more personalized attention. Paul Batta is known as a fighter who is transparent about case strategy from day one. If you value an attorney who shoots straight about your case's strengths and weaknesses, this firm deserves a call.",
+    "languages": ["English"],
+    "feeStructure": "Free consultation. Contingency fee (no win, no fee).",
+    "officeArea": "Old Town",
+    "specialtyTags": ["Car Accidents", "Motorcycle Accidents", "Catastrophic Injury"]
   },
   {
     "rank": 13,
     "name": "Mark Carleton Blane",
+    "slug": "mark-carleton-blane",
     "firm": "Law Offices of Mark C. Blane, APC",
     "barNumber": "201811",
     "licenseStatus": "Active",
@@ -295,11 +368,17 @@
     "notableVerdict": null,
     "lawSchool": null,
     "badges": [],
-    "reviewSentiment": ["Knowledgeable", "Aggressive", "Caring"]
+    "reviewSentiment": ["Knowledgeable", "Aggressive", "Caring"],
+    "editorsNote": "Mark Blane's Mission Valley office is convenient for clients in the I-8/I-15 corridor who want to avoid downtown parking hassles. With 26 years of experience and a focus on brain injuries, he brings deep medical-legal knowledge to cases where proving the full extent of neurological damage is critical to maximizing compensation.",
+    "languages": ["English"],
+    "feeStructure": "Free consultation. Contingency fee (no win, no fee).",
+    "officeArea": "Mission Valley",
+    "specialtyTags": ["Brain Injuries", "Car Accidents", "Motorcycle Accidents", "Wrongful Death"]
   },
   {
     "rank": 14,
     "name": "Robert Hamparyan",
+    "slug": "robert-hamparyan",
     "firm": "Hamparyan Personal Injury Lawyers San Diego, APC",
     "barNumber": "181934",
     "licenseStatus": "Active",
@@ -317,11 +396,17 @@
     "notableVerdict": null,
     "lawSchool": null,
     "badges": [],
-    "reviewSentiment": ["Hands-On", "Experienced", "Relentless"]
+    "reviewSentiment": ["Hands-On", "Experienced", "Relentless"],
+    "editorsNote": "Robert Hamparyan is the trial attorney other lawyers call when a case is going to court. With nearly 30 years of experience and a hands-on approach, he does not delegate to junior associates. His perfect 4.9 rating from 100 clients reflects the personalized attention that comes from keeping his caseload manageable.",
+    "languages": ["English"],
+    "feeStructure": "Free consultation. Contingency fee (no win, no fee).",
+    "officeArea": "Downtown San Diego",
+    "specialtyTags": ["Car Accidents", "Truck Accidents", "Workplace Injuries", "Trial Litigation"]
   },
   {
     "rank": 15,
     "name": "Matthew D. Clendenin",
+    "slug": "matthew-d-clendenin",
     "firm": "The Clendenin Firm APC",
     "barNumber": "284536",
     "licenseStatus": "Active",
@@ -339,11 +424,17 @@
     "notableVerdict": null,
     "lawSchool": null,
     "badges": [],
-    "reviewSentiment": ["Dedicated", "Communicative", "Professional"]
+    "reviewSentiment": ["Dedicated", "Communicative", "Professional"],
+    "editorsNote": "Matthew Clendenin runs a lean, focused practice in the same B Street building as several larger firms. What he lacks in decades of experience, he makes up for with a nearly perfect client rating and a reputation for clear, consistent communication throughout the case lifecycle.",
+    "languages": ["English"],
+    "feeStructure": "Free consultation. Contingency fee (no win, no fee).",
+    "officeArea": "Downtown San Diego",
+    "specialtyTags": ["Car Accidents", "Personal Injury Litigation", "General Personal Injury"]
   },
   {
     "rank": 16,
     "name": "David Patrick Finn",
+    "slug": "david-patrick-finn",
     "firm": "Finn Trial Attorneys APC",
     "barNumber": "249247",
     "licenseStatus": "Active",
@@ -361,11 +452,17 @@
     "notableVerdict": null,
     "lawSchool": null,
     "badges": [],
-    "reviewSentiment": ["Skilled", "Responsive", "Strategic"]
+    "reviewSentiment": ["Skilled", "Responsive", "Strategic"],
+    "editorsNote": "David Finn's perfect 5.0 rating and trial-first mentality make him a strong option when you need an attorney who genuinely prepares for court, not just settlement negotiations. His strategic approach to litigation means cases are built from day one as if they are going to trial, which often results in higher settlement offers.",
+    "languages": ["English"],
+    "feeStructure": "Free consultation. Contingency fee (no win, no fee).",
+    "officeArea": "Downtown San Diego",
+    "specialtyTags": ["Car Accidents", "Motorcycle Accidents", "Premises Liability", "Trial Litigation"]
   },
   {
     "rank": 17,
     "name": "Ramin Hariri",
+    "slug": "ramin-hariri",
     "firm": "Hariri Law Group P.C.",
     "barNumber": "251625",
     "licenseStatus": "Active",
@@ -383,11 +480,17 @@
     "notableVerdict": null,
     "lawSchool": null,
     "badges": [],
-    "reviewSentiment": ["Client-Focused", "Compassionate", "Thorough"]
+    "reviewSentiment": ["Client-Focused", "Compassionate", "Thorough"],
+    "editorsNote": "Ramin Hariri is one of the few attorneys on this list who specifically focuses on pedestrian injury cases - a growing concern in San Diego's urban core. His compassionate approach is particularly valued by pedestrian and cyclist accident victims who often face unique challenges proving liability at busy intersections.",
+    "languages": ["English"],
+    "feeStructure": "Free consultation. Contingency fee (no win, no fee).",
+    "officeArea": "Downtown San Diego",
+    "specialtyTags": ["Pedestrian Injuries", "Car Accidents", "Premises Liability"]
   },
   {
     "rank": 18,
     "name": "Brian Joseph Bickel",
+    "slug": "brian-joseph-bickel",
     "firm": "Bickel Sannipoli APC",
     "barNumber": "205646",
     "licenseStatus": "Active",
@@ -405,11 +508,17 @@
     "notableVerdict": null,
     "lawSchool": null,
     "badges": [],
-    "reviewSentiment": ["Experienced", "Professional", "Reliable"]
+    "reviewSentiment": ["Experienced", "Professional", "Reliable"],
+    "editorsNote": "Brian Bickel's 26 years of experience combined with a perfect 5.0 rating speaks to quiet competence over flashy marketing. His wrongful death specialization makes him a strong choice for families dealing with the most serious consequences of negligence, where legal precision and sensitivity are equally important.",
+    "languages": ["English"],
+    "feeStructure": "Free consultation. Contingency fee (no win, no fee).",
+    "officeArea": "Downtown San Diego",
+    "specialtyTags": ["Wrongful Death", "Car Accidents", "Motorcycle Accidents"]
   },
   {
     "rank": 19,
     "name": "Keith Jordan Stone",
+    "slug": "keith-jordan-stone",
     "firm": "Law Offices of Keith J. Stone",
     "barNumber": "126445",
     "licenseStatus": "Active",
@@ -427,11 +536,17 @@
     "notableVerdict": null,
     "lawSchool": null,
     "badges": [],
-    "reviewSentiment": ["Seasoned", "Personalized", "Trustworthy"]
+    "reviewSentiment": ["Seasoned", "Personalized", "Trustworthy"],
+    "editorsNote": "With 39 years at the bar and a perfect 5.0 rating, Keith Stone represents the best of old-school San Diego lawyering - personal relationships, direct access, and deep familiarity with every judge and courtroom in the county. He is a wise choice for clients who prefer a seasoned solo practitioner over a larger firm.",
+    "languages": ["English"],
+    "feeStructure": "Free consultation. Contingency fee (no win, no fee).",
+    "officeArea": "Downtown San Diego",
+    "specialtyTags": ["General Personal Injury", "Car Accidents", "Premises Liability"]
   },
   {
     "rank": 20,
     "name": "Craig Rene McClellan",
+    "slug": "craig-rene-mcclellan",
     "firm": "The McClellan Law Firm",
     "barNumber": "71865",
     "licenseStatus": "Active",
@@ -449,11 +564,17 @@
     "notableVerdict": null,
     "lawSchool": null,
     "badges": ["Best Lawyers in America"],
-    "reviewSentiment": ["Distinguished", "Thorough", "Knowledgeable"]
+    "reviewSentiment": ["Distinguished", "Thorough", "Knowledgeable"],
+    "editorsNote": "Craig McClellan is the medical malpractice authority on this list. With 48 years of experience and a Del Mar office, he brings the kind of deep medical-legal expertise that med-mal cases demand. If your injury was caused by a healthcare provider's negligence, McClellan's specialization gives him an edge most general PI attorneys lack.",
+    "languages": ["English"],
+    "feeStructure": "Free consultation. Contingency fee (no win, no fee).",
+    "officeArea": "Del Mar",
+    "specialtyTags": ["Medical Malpractice", "Catastrophic Injury", "Wrongful Death"]
   },
   {
     "rank": 21,
     "name": "Gordon Ralph Levinson",
+    "slug": "gordon-ralph-levinson",
     "firm": "Levinson Law Group",
     "barNumber": "185649",
     "licenseStatus": "Active",
@@ -471,11 +592,17 @@
     "notableVerdict": null,
     "lawSchool": null,
     "badges": [],
-    "reviewSentiment": ["Experienced", "Accessible", "Dedicated"]
+    "reviewSentiment": ["Experienced", "Accessible", "Dedicated"],
+    "editorsNote": "Gordon Levinson is the motorcycle accident specialist on this list, with dual offices in downtown San Diego and Carlsbad giving him coverage across the county. Riders injured on the I-5, I-15, or coastal highways will find an attorney who understands the unique dynamics of motorcycle accident claims and the bias riders often face.",
+    "languages": ["English"],
+    "feeStructure": "Free consultation. Contingency fee (no win, no fee).",
+    "officeArea": "Downtown San Diego",
+    "specialtyTags": ["Motorcycle Accidents", "Car Accidents", "Catastrophic Injury"]
   },
   {
     "rank": 22,
     "name": "Brett Cole Peterson",
+    "slug": "brett-cole-peterson",
     "firm": "Law Office of Brett Peterson",
     "barNumber": "199183",
     "licenseStatus": "Active",
@@ -493,11 +620,17 @@
     "notableVerdict": null,
     "lawSchool": null,
     "badges": [],
-    "reviewSentiment": ["Focused", "Individualized", "Reliable"]
+    "reviewSentiment": ["Focused", "Individualized", "Reliable"],
+    "editorsNote": "Brett Peterson's perfect 5.0 rating and 27 years of experience make him a reliable choice for straightforward personal injury cases. His solo practice means you are working directly with a senior attorney, not being handed off to a junior associate, which can make a meaningful difference in case outcomes.",
+    "languages": ["English"],
+    "feeStructure": "Free consultation. Contingency fee (no win, no fee).",
+    "officeArea": "Downtown San Diego",
+    "specialtyTags": ["Car Accidents", "General Personal Injury", "Premises Liability"]
   },
   {
     "rank": 23,
     "name": "Jacob Layne Stipp",
+    "slug": "jacob-layne-stipp",
     "firm": "Jacob Stipp Law Injury Attorneys",
     "barNumber": "282338",
     "licenseStatus": "Active",
@@ -515,11 +648,17 @@
     "notableVerdict": null,
     "lawSchool": null,
     "badges": [],
-    "reviewSentiment": ["Personal", "Boutique", "Attentive"]
+    "reviewSentiment": ["Personal", "Boutique", "Attentive"],
+    "editorsNote": "Jacob Stipp is the only attorney on this list based in North County, making him the clear choice for Carlsbad, Encinitas, and Oceanside residents who want a local attorney. His premises liability focus means he handles slip-and-fall and property injury cases that many general PI firms treat as secondary to auto accidents.",
+    "languages": ["English"],
+    "feeStructure": "Free consultation. Contingency fee (no win, no fee).",
+    "officeArea": "Carlsbad",
+    "specialtyTags": ["Premises Liability", "Car Accidents", "Motorcycle Accidents"]
   },
   {
     "rank": 24,
     "name": "Frederick Schenk",
+    "slug": "frederick-schenk",
     "firm": "Casey Gerry Schenk Francavilla Blatt & Penfield, LLP",
     "barNumber": "86392",
     "licenseStatus": "Active",
@@ -537,11 +676,17 @@
     "notableVerdict": null,
     "lawSchool": null,
     "badges": ["Super Lawyers"],
-    "reviewSentiment": ["Experienced", "Prestigious", "Meticulous"]
+    "reviewSentiment": ["Experienced", "Prestigious", "Meticulous"],
+    "editorsNote": "Frederick Schenk is one of few San Diego attorneys with genuine product liability expertise. If you were injured by a defective product - a malfunctioning vehicle part, a dangerous consumer product, or a medical device failure - his 45 years of specialized experience at Casey Gerry gives him a significant advantage in these technically complex cases.",
+    "languages": ["English"],
+    "feeStructure": "Free consultation. Contingency fee (no win, no fee).",
+    "officeArea": "Downtown San Diego",
+    "specialtyTags": ["Product Liability", "Medical Malpractice", "Catastrophic Injury", "Complex Litigation"]
   },
   {
     "rank": 25,
     "name": "Robert Frank Vaage",
+    "slug": "robert-frank-vaage",
     "firm": "Vaage Law",
     "barNumber": "106437",
     "licenseStatus": "Active",
@@ -559,6 +704,11 @@
     "notableVerdict": null,
     "lawSchool": null,
     "badges": [],
-    "reviewSentiment": ["Veteran", "Straightforward", "Experienced"]
+    "reviewSentiment": ["Veteran", "Straightforward", "Experienced"],
+    "editorsNote": "Robert Vaage is a 42-year veteran of the San Diego legal scene. While his online review presence is smaller than younger competitors, his decades of courtroom experience and straightforward communication style appeal to clients who prefer an old-school attorney with deep local roots over a marketing-savvy firm.",
+    "languages": ["English"],
+    "feeStructure": "Free consultation. Contingency fee (no win, no fee).",
+    "officeArea": "Downtown San Diego",
+    "specialtyTags": ["General Personal Injury", "Car Accidents", "Premises Liability", "General Negligence"]
   }
 ]

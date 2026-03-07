@@ -100,3 +100,27 @@ html {
     height: 300px;
   }
 }
+
+/* Filter bar */
+.filter-bar select {
+  appearance: auto;
+}
+
+/* Skip to content link */
+.sr-only:focus {
+  clip: auto !important;
+  clip-path: none !important;
+  height: auto !important;
+  overflow: visible !important;
+  position: fixed !important;
+  width: auto !important;
+  white-space: nowrap !important;
+}
+
+/* Print styles for checklist */
+@media print {
+  .checklist-item {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}

@@ -1,0 +1,159 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const title = "First Consultation Checklist - What to Bring to a Personal Injury Lawyer Meeting";
+const description = "Printable checklist of what to bring to your first meeting with a personal injury lawyer. Documents, questions to ask, and what to expect during your free consultation.";
+---
+
+<Layout title={title} description={description}>
+  <main class="bg-white">
+    <div class="max-w-3xl mx-auto px-4 py-12 md:py-20">
+
+      <nav class="text-sm text-gray-500 mb-6" aria-label="Breadcrumb">
+        <a href="/" class="hover:text-blue-600">Home</a>
+        <span class="mx-1">/</span>
+        <span class="text-gray-900 font-medium">Consultation Checklist</span>
+      </nav>
+
+      <h1 class="text-4xl font-bold text-gray-900 mb-4">First Consultation Checklist</h1>
+      <p class="text-lg text-gray-600 mb-4">
+        Your first meeting with a personal injury lawyer is your chance to evaluate whether they are the right fit for your case - and their chance to evaluate whether they can help you. Coming prepared makes a big difference.
+      </p>
+      <p class="text-sm text-gray-500 mb-10">
+        <button onclick="window.print()" class="text-blue-600 hover:underline font-medium print:hidden">Print this checklist</button> to bring with you to your consultation.
+      </p>
+
+      <!-- Documents to Bring -->
+      <section class="mb-10">
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">Documents to Bring</h2>
+        <div class="space-y-3">
+          <label class="checklist-item flex items-start gap-3 p-3 bg-gray-50 rounded-lg border border-gray-200">
+            <input type="checkbox" class="mt-1 w-4 h-4 text-blue-600 border-gray-300 rounded print:border-gray-400">
+            <div>
+              <span class="font-medium text-gray-900">Police Report / Crash Report</span>
+              <p class="text-sm text-gray-500">The official report filed by SDPD, CHP, or the Sheriff's Department. If you do not have a copy, your attorney can help obtain one.</p>
+            </div>
+          </label>
+
+          <label class="checklist-item flex items-start gap-3 p-3 bg-gray-50 rounded-lg border border-gray-200">
+            <input type="checkbox" class="mt-1 w-4 h-4 text-blue-600 border-gray-300 rounded print:border-gray-400">
+            <div>
+              <span class="font-medium text-gray-900">Insurance Information</span>
+              <p class="text-sm text-gray-500">Your auto insurance policy, the other driver's insurance info, and any correspondence you have received from either insurance company.</p>
+            </div>
+          </label>
+
+          <label class="checklist-item flex items-start gap-3 p-3 bg-gray-50 rounded-lg border border-gray-200">
+            <input type="checkbox" class="mt-1 w-4 h-4 text-blue-600 border-gray-300 rounded print:border-gray-400">
+            <div>
+              <span class="font-medium text-gray-900">Medical Records & Bills</span>
+              <p class="text-sm text-gray-500">ER visit records, imaging results (X-rays, MRI), doctor's notes, physical therapy records, prescriptions, and all medical bills related to the accident.</p>
+            </div>
+          </label>
+
+          <label class="checklist-item flex items-start gap-3 p-3 bg-gray-50 rounded-lg border border-gray-200">
+            <input type="checkbox" class="mt-1 w-4 h-4 text-blue-600 border-gray-300 rounded print:border-gray-400">
+            <div>
+              <span class="font-medium text-gray-900">Photos & Videos</span>
+              <p class="text-sm text-gray-500">Photos of vehicle damage, the accident scene, road conditions, your injuries, and any dashcam or security camera footage.</p>
+            </div>
+          </label>
+
+          <label class="checklist-item flex items-start gap-3 p-3 bg-gray-50 rounded-lg border border-gray-200">
+            <input type="checkbox" class="mt-1 w-4 h-4 text-blue-600 border-gray-300 rounded print:border-gray-400">
+            <div>
+              <span class="font-medium text-gray-900">Witness Information</span>
+              <p class="text-sm text-gray-500">Names, phone numbers, and any written statements from people who witnessed the accident.</p>
+            </div>
+          </label>
+
+          <label class="checklist-item flex items-start gap-3 p-3 bg-gray-50 rounded-lg border border-gray-200">
+            <input type="checkbox" class="mt-1 w-4 h-4 text-blue-600 border-gray-300 rounded print:border-gray-400">
+            <div>
+              <span class="font-medium text-gray-900">Lost Wage Documentation</span>
+              <p class="text-sm text-gray-500">Pay stubs, employer letter confirming missed work days, tax returns (if self-employed), and documentation of any reduced work capacity.</p>
+            </div>
+          </label>
+
+          <label class="checklist-item flex items-start gap-3 p-3 bg-gray-50 rounded-lg border border-gray-200">
+            <input type="checkbox" class="mt-1 w-4 h-4 text-blue-600 border-gray-300 rounded print:border-gray-400">
+            <div>
+              <span class="font-medium text-gray-900">Your Written Account</span>
+              <p class="text-sm text-gray-500">Write down everything you remember about the accident while it is fresh. Include the date, time, weather, what you were doing, and exactly what happened.</p>
+            </div>
+          </label>
+        </div>
+      </section>
+
+      <!-- Questions to Ask -->
+      <section class="mb-10">
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">Questions to Ask Your Attorney</h2>
+        <div class="space-y-3">
+          <div class="p-3 bg-blue-50 rounded-lg border border-blue-200">
+            <p class="font-medium text-blue-900 text-sm">"How many personal injury cases similar to mine have you handled?"</p>
+            <p class="text-xs text-blue-700 mt-1">Look for specific experience with your type of accident (car, motorcycle, slip and fall, etc.)</p>
+          </div>
+
+          <div class="p-3 bg-blue-50 rounded-lg border border-blue-200">
+            <p class="font-medium text-blue-900 text-sm">"What is your fee structure? What percentage do you take?"</p>
+            <p class="text-xs text-blue-700 mt-1">Most PI attorneys work on contingency (33-40%). Ask if the percentage changes if the case goes to trial.</p>
+          </div>
+
+          <div class="p-3 bg-blue-50 rounded-lg border border-blue-200">
+            <p class="font-medium text-blue-900 text-sm">"Who will actually be working on my case day-to-day?"</p>
+            <p class="text-xs text-blue-700 mt-1">At larger firms, much of the work may be handled by paralegals or junior associates. Know who your point of contact will be.</p>
+          </div>
+
+          <div class="p-3 bg-blue-50 rounded-lg border border-blue-200">
+            <p class="font-medium text-blue-900 text-sm">"What do you think my case is worth? What is the realistic range?"</p>
+            <p class="text-xs text-blue-700 mt-1">Be cautious of attorneys who give very high estimates upfront. A good attorney will give you a realistic range based on similar cases.</p>
+          </div>
+
+          <div class="p-3 bg-blue-50 rounded-lg border border-blue-200">
+            <p class="font-medium text-blue-900 text-sm">"How long do you expect my case to take?"</p>
+            <p class="text-xs text-blue-700 mt-1">Most San Diego PI cases settle in 6-18 months. Cases that go to trial can take 2-3 years.</p>
+          </div>
+
+          <div class="p-3 bg-blue-50 rounded-lg border border-blue-200">
+            <p class="font-medium text-blue-900 text-sm">"Are you willing to take this case to trial if needed?"</p>
+            <p class="text-xs text-blue-700 mt-1">Insurance companies offer better settlements when they know the attorney is willing and able to go to court.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- What to Expect -->
+      <section class="mb-10">
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">What to Expect During the Consultation</h2>
+        <div class="space-y-4 text-gray-600">
+          <p><strong class="text-gray-900">Duration:</strong> Most initial consultations last 30-60 minutes.</p>
+          <p><strong class="text-gray-900">Cost:</strong> Nearly all personal injury attorneys in San Diego offer free initial consultations. You should not be charged for this meeting.</p>
+          <p><strong class="text-gray-900">The attorney will ask:</strong> Details about the accident, the extent of your injuries, what medical treatment you have received, whether you have spoken to insurance companies, and what documentation you have.</p>
+          <p><strong class="text-gray-900">You should leave knowing:</strong> Whether the attorney thinks you have a viable case, their honest assessment of what it could be worth, their fee structure, and the next steps if you decide to hire them.</p>
+          <p><strong class="text-gray-900">No pressure:</strong> A reputable attorney will not pressure you to sign a retainer agreement on the spot. Take your time, meet with multiple attorneys if needed, and choose the one that feels right.</p>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <div class="bg-blue-900 text-white rounded-xl p-8 text-center print:hidden">
+        <h2 class="text-2xl font-bold mb-3">Ready to Schedule a Consultation?</h2>
+        <p class="text-blue-100 mb-6 max-w-lg mx-auto">Browse our verified rankings of San Diego personal injury lawyers to find the right attorney for your case.</p>
+        <a href="/#rankings" class="inline-flex items-center px-6 py-3 bg-white text-blue-900 font-semibold rounded-lg hover:bg-blue-50 transition-colors">
+          View Attorney Rankings
+        </a>
+      </div>
+
+      <div class="mt-8 text-center print:hidden">
+        <a href="/" class="text-blue-600 hover:text-blue-800 font-medium hover:underline">&larr; Back to Home</a>
+      </div>
+    </div>
+  </main>
+</Layout>
+
+<style>
+  @media print {
+    header, footer, nav[aria-label="Main navigation"] { display: none !important; }
+    .print\:hidden { display: none !important; }
+    body { background: white !important; }
+    main { padding-top: 0 !important; }
+  }
+</style>

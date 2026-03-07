@@ -1,0 +1,172 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const title = "Most Dangerous Intersections & Roads in San Diego (2026 Data)";
+const description = "The most dangerous intersections and corridors in San Diego based on accident data. Learn which roads have the highest crash rates and what to do if you're injured.";
+---
+
+<Layout title={title} description={description}>
+  <main class="bg-white">
+    <div class="max-w-3xl mx-auto px-4 py-12 md:py-20">
+
+      <nav class="text-sm text-gray-500 mb-6" aria-label="Breadcrumb">
+        <a href="/" class="hover:text-blue-600">Home</a>
+        <span class="mx-1">/</span>
+        <span class="text-gray-900 font-medium">Dangerous Intersections</span>
+      </nav>
+
+      <h1 class="text-4xl font-bold text-gray-900 mb-4">Most Dangerous Intersections and Roads in San Diego</h1>
+      <p class="text-lg text-gray-600 mb-10">
+        San Diego sees thousands of traffic collisions every year. Certain intersections and road corridors consistently appear in accident reports. If you drive these routes regularly, knowing the danger zones can help you stay alert - and knowing your rights if you are in an accident can protect you financially.
+      </p>
+
+      <!-- Dangerous locations -->
+      <div class="space-y-6 mb-12">
+        <div class="border border-red-200 rounded-lg p-5 bg-red-50">
+          <div class="flex items-start gap-3">
+            <span class="text-red-600 font-bold text-lg">1</span>
+            <div>
+              <h2 class="text-lg font-bold text-gray-900">I-5 / I-8 Interchange</h2>
+              <p class="text-sm text-gray-600 mt-1">One of San Diego's most complex freeway interchanges, where two of the busiest interstates in the county converge. High-speed merging, short ramps, and heavy truck traffic contribute to frequent rear-end and sideswipe collisions, especially during rush hour.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="border border-red-200 rounded-lg p-5 bg-red-50">
+          <div class="flex items-start gap-3">
+            <span class="text-red-600 font-bold text-lg">2</span>
+            <div>
+              <h2 class="text-lg font-bold text-gray-900">University Avenue & Fairmount Avenue</h2>
+              <p class="text-sm text-gray-600 mt-1">A high-traffic intersection in City Heights with a mix of commercial driveways, bus stops, and pedestrian crossings. The combination of turning traffic and jaywalking pedestrians makes this one of the most collision-prone intersections in the mid-city area.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="border border-red-200 rounded-lg p-5 bg-red-50">
+          <div class="flex items-start gap-3">
+            <span class="text-red-600 font-bold text-lg">3</span>
+            <div>
+              <h2 class="text-lg font-bold text-gray-900">El Cajon Boulevard Corridor</h2>
+              <p class="text-sm text-gray-600 mt-1">Running through North Park, City Heights, and into El Cajon, this boulevard sees a high volume of pedestrian-vehicle accidents. Limited crosswalks, poor lighting in some stretches, and high traffic speeds create dangerous conditions, particularly at night.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="border border-red-200 rounded-lg p-5 bg-red-50">
+          <div class="flex items-start gap-3">
+            <span class="text-red-600 font-bold text-lg">4</span>
+            <div>
+              <h2 class="text-lg font-bold text-gray-900">Miramar Road (between I-15 and I-805)</h2>
+              <p class="text-sm text-gray-600 mt-1">This commercial corridor near MCAS Miramar handles heavy truck and commuter traffic. Multiple signalized intersections with high-speed cross traffic lead to frequent T-bone collisions, particularly at the Miramar Road and Black Mountain Road intersection.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="border border-red-200 rounded-lg p-5 bg-red-50">
+          <div class="flex items-start gap-3">
+            <span class="text-red-600 font-bold text-lg">5</span>
+            <div>
+              <h2 class="text-lg font-bold text-gray-900">I-15 / SR-163 Split (Kearny Mesa)</h2>
+              <p class="text-sm text-gray-600 mt-1">The merge zone where SR-163 splits from I-15 requires quick lane changes across multiple lanes of traffic. Confused tourists and commuters unfamiliar with the split cause frequent last-second lane changes that lead to sideswipe accidents.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="border border-red-200 rounded-lg p-5 bg-red-50">
+          <div class="flex items-start gap-3">
+            <span class="text-red-600 font-bold text-lg">6</span>
+            <div>
+              <h2 class="text-lg font-bold text-gray-900">Market Street & 25th Street (Barrio Logan)</h2>
+              <p class="text-sm text-gray-600 mt-1">Near the I-5 on/off ramps, this intersection sees conflicts between highway traffic entering surface streets and local neighborhood traffic. Pedestrian safety is a particular concern due to proximity to schools and community facilities.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="border border-red-200 rounded-lg p-5 bg-red-50">
+          <div class="flex items-start gap-3">
+            <span class="text-red-600 font-bold text-lg">7</span>
+            <div>
+              <h2 class="text-lg font-bold text-gray-900">Genesee Avenue & Balboa Avenue</h2>
+              <p class="text-sm text-gray-600 mt-1">A wide, high-speed intersection near Clairemont that handles traffic flowing between I-5 and I-805. The multiple turn lanes and wide crossing distances create a high-risk environment for both vehicle collisions and pedestrian accidents.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="border border-red-200 rounded-lg p-5 bg-red-50">
+          <div class="flex items-start gap-3">
+            <span class="text-red-600 font-bold text-lg">8</span>
+            <div>
+              <h2 class="text-lg font-bold text-gray-900">Harbor Drive (Embarcadero to Airport)</h2>
+              <p class="text-sm text-gray-600 mt-1">This stretch handles airport traffic, cruise ship passengers, rental car returns, and downtown commuters simultaneously. Distracted tourists, Uber/Lyft pickups, and sudden lane changes near airport exits make this corridor particularly hazardous.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="border border-red-200 rounded-lg p-5 bg-red-50">
+          <div class="flex items-start gap-3">
+            <span class="text-red-600 font-bold text-lg">9</span>
+            <div>
+              <h2 class="text-lg font-bold text-gray-900">Friars Road & Mission Center Road</h2>
+              <p class="text-sm text-gray-600 mt-1">The Mission Valley shopping district generates heavy turning traffic at this intersection. Holiday shopping seasons see significant spikes in fender-bender collisions as drivers navigate packed parking lot entrances and exits near the intersection.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="border border-red-200 rounded-lg p-5 bg-red-50">
+          <div class="flex items-start gap-3">
+            <span class="text-red-600 font-bold text-lg">10</span>
+            <div>
+              <h2 class="text-lg font-bold text-gray-900">Camino Del Rio South (Mission Valley)</h2>
+              <p class="text-sm text-gray-600 mt-1">Running parallel to I-8 through Mission Valley, this road is used as an alternative when the freeway is congested. The combination of frustrated drivers seeking shortcuts, multiple shopping center driveways, and traffic signal timing issues leads to rear-end collisions throughout this corridor.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Safety tips -->
+      <section class="mb-10">
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">Safety Tips for San Diego Drivers</h2>
+        <div class="grid sm:grid-cols-2 gap-4">
+          <div class="p-4 bg-green-50 rounded-lg border border-green-200">
+            <h3 class="font-semibold text-green-900 text-sm mb-1">Leave Following Distance</h3>
+            <p class="text-green-800 text-xs">San Diego freeways are high-speed. Maintain at least 3 seconds of following distance, more in rain.</p>
+          </div>
+          <div class="p-4 bg-green-50 rounded-lg border border-green-200">
+            <h3 class="font-semibold text-green-900 text-sm mb-1">Watch for Pedestrians</h3>
+            <p class="text-green-800 text-xs">Urban corridors like El Cajon Blvd and University Ave have high pedestrian traffic, especially at night.</p>
+          </div>
+          <div class="p-4 bg-green-50 rounded-lg border border-green-200">
+            <h3 class="font-semibold text-green-900 text-sm mb-1">Know Your Merge Points</h3>
+            <p class="text-green-800 text-xs">Study freeway interchanges before driving unfamiliar routes. The I-5/I-8 and I-15/SR-163 splits catch many drivers off guard.</p>
+          </div>
+          <div class="p-4 bg-green-50 rounded-lg border border-green-200">
+            <h3 class="font-semibold text-green-900 text-sm mb-1">Use a Dashcam</h3>
+            <p class="text-green-800 text-xs">Dashcam footage can be critical evidence in disputed-fault accidents at busy intersections.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- What to do section -->
+      <section class="mb-10">
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">Injured at a Dangerous Intersection?</h2>
+        <p class="text-gray-600 mb-4">If you have been involved in an accident at one of these locations, the road's documented history of accidents can actually help your case. An experienced San Diego personal injury attorney can use the intersection's accident record to support your claim.</p>
+        <p class="text-gray-600">
+          <a href="/what-to-do-after-car-accident-san-diego/" class="text-blue-600 hover:underline font-medium">Read our full guide on what to do after a car accident in San Diego</a> for step-by-step instructions on protecting your rights immediately after a collision.
+        </p>
+      </section>
+
+      <!-- CTA -->
+      <div class="bg-blue-900 text-white rounded-xl p-8 text-center">
+        <h2 class="text-2xl font-bold mb-3">Find a Verified Personal Injury Attorney</h2>
+        <p class="text-blue-100 mb-6 max-w-lg mx-auto">All 25 attorneys in our rankings are State Bar verified with real Google reviews. Find the right attorney for your case.</p>
+        <a href="/#rankings" class="inline-flex items-center px-6 py-3 bg-white text-blue-900 font-semibold rounded-lg hover:bg-blue-50 transition-colors">
+          View Attorney Rankings
+        </a>
+      </div>
+
+      <div class="mt-8 text-center">
+        <a href="/" class="text-blue-600 hover:text-blue-800 font-medium hover:underline">&larr; Back to Home</a>
+      </div>
+    </div>
+  </main>
+</Layout>
